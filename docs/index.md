@@ -3,23 +3,33 @@
 layout: home
 
 hero:
-  name: "My Document"
-  text: "My Online Document"
-  tagline: My great project tagline
+  name: "技术备忘录"
+  text: "Technical Reserve"
+  tagline: 个人工作经验总结 & 技术储备
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开始阅读
+      link: /guide
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 微前端
+    icon: ⚡
+    details: 介绍微前端相关概念，结合国内现在的环境，谈一谈方案制定和落地
+    link: /microApp/
+  - title: 低代码
+    icon: 📦
+    details: 低代码的价值，应用场景，架构和相关技术介绍
+    link: /lowCode/
+  - title: NextJS
+    icon: ⏏
+    details: 从前端独立开发交付的角度，来思考一下NextJS和未来React的发展
+    link: /nextJS/
+  - title: 工具链
+    icon: 🧰
+    details: VSC插件、Chrome插件、SWC
+    link: /tools/
 ---
 

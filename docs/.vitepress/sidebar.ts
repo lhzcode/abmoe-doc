@@ -51,6 +51,7 @@ export default {
             { text: 'Monorepo', link: '/microApp/principles/monorepo' },
           ]
         },
+        { text: '总结', link: '/microApp/more/tucao' }
       ]
     }
   ],
@@ -64,7 +65,7 @@ export default {
         { text: '通用schema设计', link: '/lowCode/principles/schema' },
         { text: '组件与物料设计', link: '/lowCode/principles/material' },
         { text: '模板设计', link: '/lowCode/principles/template' },
-        { text: '拖拽组件设计开发', link: '/lowCode/principles/dnd'}
+        { text: '拖拽组件设计开发', link: '/lowCode/principles/dnd' }
       ]
     }
   ],
@@ -73,9 +74,9 @@ export default {
       text: 'NextJS',
       items: [
         { text: '概述', link: '/nextJS/' },
-        { text: '页面路由', link: '/nextJS/route'},
+        { text: '页面路由', link: '/nextJS/route' },
         { text: 'API路由', link: '/nextJS/api-route' },
-        { text: '渲染', link: '/nextJS/render'},
+        { text: '渲染', link: '/nextJS/render' },
         { text: '数据获取', link: '/nextJS/fetch' }
       ]
     }
@@ -85,7 +86,7 @@ export default {
       text: '工具链',
       items: [
         { text: 'chrome插件', link: '/tools/chrome' },
-        { text: 'vscode插件', link: '/tools/vscode'}
+        { text: 'vscode插件', link: '/tools/vscode' }
         // { text: '概述', link: '/tools/overview/' },
         // { text: '方案', link: '/tools/solutions/' },
         // { text: '原理', link: '/tools/principles/' },
